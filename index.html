@@ -8,6 +8,10 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="style.css" />
 
   <title>Justice</title>
@@ -15,32 +19,65 @@
 
 <body>
   <header>
-    <!-- Nav Bar Section for large device Starts -->
-    <nav class="w-4/5 mx-auto my-14 font-poppins hidden lg:block
-      <div class=" flex justify-between items-center gap-32 flex-col lg:flex-row">
-      <div>
-        <img src="images/logo2.png" alt="" />
+    <!-- nav bar starts -->
+    <nav>
+      <!-- Nav Bar Section for large device starts -->
+      <div class="w-4/5 mx-auto my-14  ">
+        <div class="flex justify-between items-center gap-32 flex-col lg:flex-row">
+          <div>
+            <img src="images/logo2.png" alt="" />
+          </div>
+          <div class="text-base breadcrumbs font-poppins text-dark1">
+            <ul class="flex flex-col lg:flex-row">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Cases</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <button class="btn btn-primary bg-[#B68C5A] .font-poppins text-white text-lg font-semibold border-none">
+              Free Consultation
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="text-base breadcrumbs text-dark1">
-        <ul>
-          <li><a>Home</a></li>
-          <li><a>Services</a></li>
-          <li><a>Cases</a></li>
-          <li><a>Blog</a></li>
-          <li><a>Contact Us</a></li>
-        </ul>
-      </div>
-      <div>
-        <button class="btn btn-primary bg-[#B68C5A] text-white text-lg font-semibold border-none">
-          Free Consultation
-        </button>
-      </div>
-      </div>
+      <!-- Nav Bar Section for large device  ends -->
+
+
     </nav>
-    <!-- Nav Bar Section for large device ends  -->
+    <!-- Nav bar ends -->
   </header>
 
-  <main></main>
+  <main>
+    <!-- her section starts -->
+    <section class="w-4/5 mx-auto h-[800px]">
+      <div class="hero min-h-screen bg-[url('images/banner.png')]">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-7xl font-extrabold font-garamond">
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="mb-5 text-[#e7e7e7] font-poppins">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in
+              some form, by injected humour.
+            </p>
+            <div>
+              <input type="text" placeholder="Search your services"
+                class="text-[##A0A0A0] font-poppins w-3/5 p-2 rounded-lg">
+              <button class="btn btn-primary bg-[#B68C5A] border-none">
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- her section ends -->
+  </main>
 
   <footer></footer>
 </body>
